@@ -8,6 +8,8 @@ province = list(data["省份"])
 data_num = list(data["样本数"])
 list = [list(z) for z in zip(province,data_num)]
 
+# print(list)
+
 c = (
     Map(init_opts=opts.InitOpts(width="1000px", height="600px")) #Switchable theme
     .set_global_opts(
